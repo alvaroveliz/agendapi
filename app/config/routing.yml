@@ -1,0 +1,8 @@
+newbie_api:
+    resource: "@NewbieApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+_welcome:
+    path:      /
+    defaults:  { _controller: NewbieApiBundle:Default:index }
